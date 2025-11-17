@@ -50,22 +50,18 @@ A beautiful, fully responsive Todo application with a powerful REST API backend 
 
 ## 📸 Demo
 
-### Desktop View
-```
-🖥️ Full-featured dashboard with statistics and filters
-```
+### 🌐 Live Application
 
-### Mobile View
-```
-📱 Fully responsive design optimized for mobile devices
-```
+**Live URL:** [https://todo-7yx1.onrender.com/](https://todo-7yx1.onrender.com/)
 
-### Key Screens
-- ✨ Beautiful gradient header with live statistics
-- 📝 Intuitive task creation form
-- 🎯 Smart filtering and sorting controls
-- 📋 Card-based task list with priority indicators
-- 🔔 Toast notifications for user feedback
+
+---
+
+### 🧪 Try the Live API
+
+#### Get All Todos
+```bash
+GET https://todo-7yx1.onrender.com/api/todos
 
 ---
 
@@ -537,3 +533,4 @@ kill -9 <PID>
 # Or use different port in .env
 PORT=5001
 ```
+
