@@ -15,7 +15,7 @@ This repository contains solutions for the Full Stack Developer Assignment with 
 **Problem:** Find the second largest unique number in an array.
 
 **Solution:** 
-- Language: [Your Language]
+- Language: C++
 - Time Complexity: O(n)
 - Space Complexity: O(1)
 
@@ -34,9 +34,9 @@ This repository contains solutions for the Full Stack Developer Assignment with 
 - ✅ Loading spinner
 - ✅ Mobile responsive
 
-**Tech Stack:** React, [CSS Framework]
+**Tech Stack:** React.js
 
-**Live Demo:** [Your Deployment Link]
+**Live Demo:** https://user-directory-tool.netlify.app/
 
 [View Code & Setup Instructions](./frontend)
 
@@ -56,9 +56,9 @@ This repository contains solutions for the Full Stack Developer Assignment with 
 - ✅ Completed status tracking
 - ✅ Proper HTTP status codes
 
-**Tech Stack:** Node.js, Express.js
+**Tech Stack:** MERN Stack (MongoDB, Express.js, React.js, Node.js)
 
-**Live API:** [Your Deployment Link]
+**Live API:** https://todo-7yx1.onrender.com/
 
 [View Code & Setup Instructions](./backend)
 
@@ -68,11 +68,16 @@ Each folder contains its own README with detailed setup instructions.
 
 ```bash
 # Clone the repository
-git clone https://github.com/HeyVikas5/[your-repo-name].git
+git clone https://github.com/HeyVikas5/fullstack-assignment.git
 
 # Navigate to specific folder and follow its README
 cd dsa          # or frontend / backend
 ```
+
+## 🔗 Live Links
+
+- **Frontend:** https://user-directory-tool.netlify.app/
+- **Backend API:** https://todo-7yx1.onrender.com/
 
 ## 👨‍💻 Author
 
@@ -84,5 +89,3 @@ This project is part of an assignment submission.
 
 ---
 
-**Submission Date:** November 20, 2025
-```
