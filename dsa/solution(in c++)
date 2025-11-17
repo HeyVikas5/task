@@ -1,0 +1,49 @@
+#include <iostream>
+#include <vector>
+#include <limits.h>
+#include <unordered_set>
+
+using namespace std;
+
+/*
+Approach:
+1. Use two variables: largest and secondLargest.
+2. Traverse array once.
+3. For each number:
+   - Update largest and secondLargest accordingly.
+4. Ensure numbers are unique by using a set.
+5. Time Complexity: O(n)
+   Space Complexity: O(n)
+
+Sample Input:  [3, 5, 2, 5, 6, 6, 1]
+Sample Output: 5
+*/
+
+int secondLargestUnique(vector<int>& nums) {
+    unordered_set<int> seen;
+    int largest = INT_MIN, secondLargest = INT_MIN;
+
+    for (int num : nums) {
+        if (seen.count(num)) continue;
+        seen.insert(num);
+
+        if (num > largest) {
+            secondLargest = largest;
+            largest = num;
+        } else if (num > secondLargest && num < largest) {
+            secondLargest = num;
+        }
+    }
+
+    return (secondLargest == INT_MIN) ? -1 : secondLargest;
+}
+
+int main() {
+    vector<int> arr = {3, 5, 2, 5, 6, 6, 1};
+    cout << "Second largest unique: " << secondLargestUnique(arr) << endl;
+
+    vector<int> arr2 = {7, 7, 7};
+    cout << "Second largest unique: " << secondLargestUnique(arr2) << endl;
+
+    return 0;
+}
