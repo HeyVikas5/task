@@ -1,81 +1,88 @@
-# Assignment – DSA • Frontend • Backend
+# Full Stack Developer Assignment
 
-This repository contains three parts of the assignment:  
-- **/dsa** – Second Largest Unique Number Problem  
-- **/frontend** – React User Directory Table  
-- **/backend** – To-Do CRUD API  
+This repository contains solutions for the Full Stack Developer Assignment with three parts: DSA Problem, Frontend Task, and Backend Task.
+
+## 📁 Repository Structure
+
+```
+├── dsa/          # DSA Problem - Second Largest Unique Number
+├── frontend/     # React User Directory Table
+└── backend/      # Node.js To-Do CRUD API
+```
+
+## 🔢 Part 1 - DSA Problem
+
+**Problem:** Find the second largest unique number in an array.
+
+**Solution:** 
+- Language: [Your Language]
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
+[View Solution](./dsa)
+
+## 💻 Part 2 - Frontend Task
+
+**User Directory Table** - A React application that displays user data with search, sort, filter, and pagination features.
+
+**Features:**
+- ✅ Fetch and display users from API
+- ✅ Search by name or email
+- ✅ Sort by first name or email
+- ✅ Pagination support
+- ✅ Filter by email domain
+- ✅ Loading spinner
+- ✅ Mobile responsive
+
+**Tech Stack:** React, [CSS Framework]
+
+**Live Demo:** [Your Deployment Link]
+
+[View Code & Setup Instructions](./frontend)
+
+## ⚙️ Part 3 - Backend Task
+
+**Simple To-Do CRUD API** - RESTful APIs for managing to-do items.
+
+**Endpoints:**
+- `GET /todos` - Get all todos
+- `POST /todos` - Create a todo
+- `PUT /todos/:id` - Update a todo
+- `DELETE /todos/:id` - Delete a todo
+
+**Features:**
+- ✅ Full CRUD operations
+- ✅ Input validation
+- ✅ Completed status tracking
+- ✅ Proper HTTP status codes
+
+**Tech Stack:** Node.js, Express.js
+
+**Live API:** [Your Deployment Link]
+
+[View Code & Setup Instructions](./backend)
+
+## 🚀 Quick Start
+
+Each folder contains its own README with detailed setup instructions.
+
+```bash
+# Clone the repository
+git clone https://github.com/HeyVikas5/[your-repo-name].git
+
+# Navigate to specific folder and follow its README
+cd dsa          # or frontend / backend
+```
+
+## 👨‍💻 Author
+
+**Vikas** ([@HeyVikas5](https://github.com/HeyVikas5))
+
+## 📝 License
+
+This project is part of an assignment submission.
 
 ---
 
-## 📌 Part 1 – DSA Problem  
-**Task:** Return the **second largest unique number** from an integer array.  
-If not found, return **-1**.
-
-### ✅ Example
-Input:  
-`[3, 5, 2, 5, 6, 6, 1]`  
-Output:  
-`5`
-
-Input:  
-`[7, 7, 7]`  
-Output:  
-`-1`
-
-### 🧠 Approach  
-- Use two variables (`largest`, `secondLargest`)  
-- Track unique values  
-- Single pass → **O(n)** time  
-- Return `-1` if no second largest unique number exists
-
-_Source references:_  
-- C++ `unordered_set` (O(1) average operations): https://en.cppreference.com/w/cpp/container/unordered_set  
-- INT_MIN definition: https://en.cppreference.com/w/cpp/header/climits  
-
----
-
-## 🎨 Part 2 – Frontend (React User Directory)  
-A simple React app that fetches users from:  
-API: https://reqres.in/api/users  
-
-### Features  
-- Fetch and display users in a table  
-- Search (name/email)  
-- Sorting  
-- Pagination  
-- Basic filters  
-- Loading state & responsive UI  
-- Optional: deployed version
-
-Setup instructions are provided inside `/frontend`.
-
-_Source references:_  
-- React official documentation: https://react.dev  
-- ReqRes API docs: https://reqres.in  
-
----
-
-## ⚙️ Part 3 – Backend (To-Do CRUD API)
-
-A Node.js (Express) API implementing:
-- `GET /todos`  
-- `POST /todos`  
-- `PUT /todos/:id`  
-- `DELETE /todos/:id`
-
-Data is stored either **in-memory** or in a simple **JSON file**.
-
-Bonus:
-- Input validation  
-- `completed: true/false` field  
-- Optional: deployed API link  
-
-Setup instructions are provided inside `/backend`.
-
-_Source references:_  
-- Express.js documentation: https://expressjs.com  
-
----
-
-## 📂 Repository Structure
-
+**Submission Date:** November 20, 2025
+```
