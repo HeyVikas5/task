@@ -1,0 +1,50 @@
+# User Directory Application
+
+A modern, interactive user directory application built with React and Vite.
+
+## Features
+
+- Ì±• Display user profiles with avatars
+- Ì¥ç Search users by name or email
+- ÌæØ Filter by email domain and first name letter
+- ‚¨ÜÔ∏è‚¨áÔ∏è Sort by first name, last name, or email
+- Ì≥Ñ Pagination with 6 users per page
+- Ì¥Ñ Reset all filters with one click
+- Ì≤´ Modern UI with gradient design and hover effects
+
+## Tech Stack
+
+- React 18
+- Vite 5
+- Native Fetch API
+- Inline CSS styling
+
+## Installation
+
+```bash
+npm install
+```
+
+## Development
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173/`
+
+## Build
+
+```bash
+npm run build
+```
+
+## Preview
+
+```bash
+npm run preview
+```
+
+---
+
+Made with ‚ù§Ô∏è by **Vikas**
